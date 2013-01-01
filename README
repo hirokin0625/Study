@@ -1,0 +1,5 @@
+# テストの実行方法
+phpunit FileName
+
+ex)
+phpunit ExampleTest.php
