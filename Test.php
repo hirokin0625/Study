@@ -29,5 +29,14 @@ class ExampleTest extends PHPUnit_Framework_TestCase
         $this->assertEquals($expected, $actual);
     }
 
+    function testBuzz()
+    {
+        $input = 5;
+        $obj = new Tsubo();
+        $actual = $obj->answer($input);
+        $expected = "Buzz";
+        $this->assertEquals($expected, $actual);
+    }
+
 
 }
